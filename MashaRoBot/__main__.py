@@ -85,7 +85,7 @@ Click /help or use button below to find out more about how to use me to my full 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ༒ AVENGERS PROBOT  ༒ TO YOUR GROUP ➕️", url="t.me/Tiana_Prince_bot?startgroup=true"),
+            text="➕️ ADD ༒ AVENGERS PROBOT  ༒ TO YOUR GROUP ➕️", url="t.me/avengers_probot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📱ABOUT", callback_data="masha_"),
