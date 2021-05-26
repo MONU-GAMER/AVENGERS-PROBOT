@@ -80,7 +80,7 @@ def resize_image(image):
 
 
 __help__ = """
-I can upload files to Telegraph
+I can upload files to Telegraph [ HELPER](https://t.me/monumishra_07).
  ❍ /tm :Get Telegraph Link Of Replied Media
  ❍ /txt :Get Telegraph Link of Replied Text
 """
