@@ -202,7 +202,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Be Patient! A member of the Emcee powerhouse just joined.",
+                    "Be Patient! A member of the AVENGERS powerhouse just joined.",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
@@ -215,7 +215,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Sudos
             elif new_mem.id in DRAGONS:
                 update.effective_message.reply_text(
-                    "Whoa! A Legend disaster just joined! Stay Alert!",
+                    "Whoa! A Legend disaster just joined! Stay Alert [ HELPER](https://t.me/monumishra_07)!",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
@@ -228,7 +228,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Support
             elif new_mem.id in DEMONS:
                 update.effective_message.reply_text(
-                    "Huh! Someone with a Satan disaster level just joined!",
+                    "Huh! Someone with a Satan disaster level just joined![ HELPER](https://t.me/monumishra_07)!",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
@@ -1095,7 +1095,7 @@ def __chat_settings__(chat_id, user_id):
 __help__ = """
 *Admins only:*
  ❍ /welcome <on/off>*:* enable/disable welcome messages.
- ❍ /welcome*:* shows current welcome settings.
+ ❍ /welcome*:* shows current welcome settings [ HELPER](https://t.me/monumishra_07).
  ❍ /welcome noformat*:* shows current welcome settings, without the formatting - useful to recycle your welcome messages!
  ❍ /goodbye*:* same usage and args as `/welcome`.
  ❍ /setwelcome <sometext>*:* set a custom welcome message. If used replying to media, uses that media.
