@@ -28,7 +28,7 @@ def song(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply('🔎 Finding the Audio...')
+    m = message.reply('🔎 Finding the Audio... [ HELPER](https://t.me/monumishra_07)')
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -47,7 +47,7 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "✖️ Found Nothing. Sorry.\n\nTry another keywork or maybe spell it properly."
+            "✖️ Found Nothing. Sorry.\n\nTry another keywork or maybe spell it properly [ HELPER](https://t.me/monumishra_07)."
         )
         print(str(e))
         return
