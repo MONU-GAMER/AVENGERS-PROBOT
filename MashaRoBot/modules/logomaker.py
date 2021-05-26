@@ -1,4 +1,4 @@
-#credit - @Simpleboy787
+#credit - @monumishra_07
 from MashaRoBot.events import register
 from MashaRoBot import OWNER_ID
 from MashaRoBot import telethn as tbot
@@ -18,7 +18,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!')
+ await event.reply('Creating your logo...wait ! [ HELPER](https://t.me/monumishra_07).')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./MashaRoBot/resources/blackbg.jpg')
@@ -58,7 +58,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!')
+ await event.reply('Creating your logo...wait! [ HELPER](https://t.me/monumishra_07).')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./MashaRoBot/resources/blackbg.jpg')
