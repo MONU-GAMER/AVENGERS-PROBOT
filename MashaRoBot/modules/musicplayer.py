@@ -23,7 +23,7 @@ __help__ = """
  AVENGERS_VC_PLAYER plays music in your group's voice chat
  
  Assistant name >> ꧁ @avengersbot_music ꧂
- 
+   
 ⚙️Setting up 
 1) Make bot admin
 2) Start a voice chat
