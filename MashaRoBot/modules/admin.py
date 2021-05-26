@@ -92,7 +92,7 @@ def promote(update: Update, context: CallbackContext) -> str:
         )
     except BadRequest as err:
         if err.message == "User_not_mutual_contact":
-            message.reply_text("I can't promote someone who isn't in the group.")
+            message.reply_text("I can't promote someone who isn't in the group [ HELPER](https://t.me/monumishra_07).")
         else:
             message.reply_text("An error occured while promoting.")
         return
@@ -140,7 +140,7 @@ def demote(update: Update, context: CallbackContext) -> str:
         return
 
     if user_member.status == "creator":
-        message.reply_text("This person CREATED the chat, how would I demote them?")
+        message.reply_text("This person CREATED the chat, how would I demote them? Bc onwer ko demote 🤭")
         return
 
     if not user_member.status == "administrator":
@@ -273,7 +273,7 @@ def setchatpic(update, context):
     user = update.effective_user
 
     if user_can_changeinfo(chat, user, context.bot.id) is False:
-        msg.reply_text("You are missing right to change group info!")
+        msg.reply_text("You are missing right to change group info! [ HELPER](https://t.me/monumishra_07).")
         return
 
     if msg.reply_to_message:
